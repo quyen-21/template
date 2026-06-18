@@ -3,7 +3,7 @@ kind: K8sPSPAllowedUsers
 metadata:
   name: psp-pods-must-run-as-non-root
 spec:
-  enforcementAction: dryrun
+  enforcementAction: deny
   match:
     kinds:
       - apiGroups: [""]
