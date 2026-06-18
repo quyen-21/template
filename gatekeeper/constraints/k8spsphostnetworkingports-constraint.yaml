@@ -9,5 +9,3 @@ spec:
         kinds: ["Pod"]
     namespaces:
       - "demo"
-  parameters:
-    hostNetwork: false
