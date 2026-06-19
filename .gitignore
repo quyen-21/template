@@ -14,3 +14,7 @@ k8s-monitoring/alertmanager-config.yaml
 # Temporary scratch tests
 scratch/
 
+# Cosign private key
+signing/cosign.key
+
+
